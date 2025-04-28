@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Shaa Trading | Beauty & Skincare</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-6 py-4 shadow-md">
+    <div class="text-2xl font-bold">Shaa Trading</div>
+    <nav class="space-x-6">
+      <a href="index.html" class="hover:text-gray-600">Home</a>
+      <a href="shop.html" class="hover:text-gray-600">Shop</a>
+      <a href="about.html" class="hover:text-gray-600">About</a>
+      <a href="contact.html" class="hover:text-gray-600">Contact</a>
+        <a href="cart.html" class="hover:text-gray-600">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="px-6 py-12">
+    <h2 class="text-3xl font-semibold text-center mb-8">Your Cart</h2>
+
+    <!-- Cart Items -->
+    <div class="space-y-6">
+      <!-- Cart Item 1 -->
+      <div class="flex justify-between items-center border-b py-4">
+        <div class="flex items-center space-x-4">
+          <div class="w-20 h-20 bg-gray-200"></div> <!-- Placeholder for image -->
+          <div>
+            <h3 class="font-semibold">Filogra Skin Booster Brightening</h3>
+            <p class="text-sm text-gray-600">Price: $50</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <button class="px-2 py-1 bg-gray-200 rounded">-</button>
+          <span class="text-lg">1</span> <!-- Quantity -->
+          <button class="px-2 py-1 bg-gray-200 rounded">+</button>
+        </div>
+        <div class="text-lg font-semibold">$50</div> <!-- Total for this item -->
+      </div>
+
+      <!-- Cart Item 2 -->
+      <div class="flex justify-between items-center border-b py-4">
+        <div class="flex items-center space-x-4">
+          <div class="w-20 h-20 bg-gray-200"></div> <!-- Placeholder for image -->
+          <div>
+            <h3 class="font-semibold">Innotox 25 IU</h3>
+            <p class="text-sm text-gray-600">Price: $75</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <button class="px-2 py-1 bg-gray-200 rounded">-</button>
+          <span class="text-lg">1</span> <!-- Quantity -->
+          <button class="px-2 py-1 bg-gray-200 rounded">+</button>
+        </div>
+        <div class="text-lg font-semibold">$75</div> <!-- Total for this item -->
+      </div>
+    </div>
+
+    <!-- Subtotal and Total -->
+    <div class="flex justify-between items-center mt-8">
+      <div class="text-lg font-semibold">Subtotal:</div>
+      <div class="text-lg font-semibold">$125</div>
+    </div>
+
+    <div class="flex justify-between items-center mt-4">
+      <div class="text-lg font-semibold">Total:</div>
+      <div class="text-lg font-semibold text-black">$125</div>
+    </div>
+
+    <!-- Checkout Button -->
+    <div class="mt-8 text-center">
+      <a href="#" class="px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition">Proceed to Checkout</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500 border-t mt-12">
+    &copy; 2025 Shaa Trading. All rights reserved.
+  </footer>
+</body>
+</html>
